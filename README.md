@@ -2,7 +2,7 @@
 
 ## Membership Card Generator
 
-This Python application generates membership cards with embedded QR codes. It provides a graphical user interface (GUI) to customize the size and position of the QR codes on the cards and allows saving these settings to a SQLite database. The final output is a PDF containing the membership cards.
+This project generates membership cards with QR codes using PyQt5 and ReportLab. The QR codes are generated based on unique numbers stored in an SQLite database.
 
 ## Features
 
@@ -20,6 +20,14 @@ This Python application generates membership cards with embedded QR codes. It pr
     Pillow (PIL)
     reportlab
 
+## Configuration
+
+You can customize the following settings in the QrCards.py file:
+
+    Card dimensions (width and height) in centimeters
+    Page dimensions in inches
+    Number of rows and columns per page
+    Page orientation (portrait or landscape)
 
 ## Usage
 
